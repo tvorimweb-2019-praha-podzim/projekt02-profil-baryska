@@ -1,6 +1,12 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
 
 /*
  BARVY
@@ -13,7 +19,124 @@ html { box-sizing: border-box; }
  twitter    #1da1f2
 */
 
-
 body {
-    background-color: #bdc3c7;
+  background-color: #bdc3c7;
+}
+
+img {
+  max-width: 250px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.profil {
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 3px 4px 5px 0px rgba(133, 126, 133, 1);
+  position: relative;
+}
+
+.jmeno {
+  margin: 0;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.obsah {
+  background-color: #31363b;
+  margin: 0;
+  padding: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(231, 229, 229);
+  font-size: 15px;
+  filter: blur(0.5px);
+}
+
+.logo {
+  position: absolute;
+  right: 20px;
+  top: 140px;
+  z-index: 1;
+  background-color: #b92e81;
+  border-radius: 100%;
+  box-shadow: 0px 4px 5px 0px rgba(27, 23, 23, 0.75);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+li {
+  display: inline-block;
+  filter: blur(0.5px);
+  color: rgb(231, 229, 229);
+}
+
+.portfolio {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  width: 250px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.portfolio a:hover {
+  background-color: #e74c3c;
+  display: block;
+}
+
+
+.facebook {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  width: 125px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.facebook a:hover {
+  background-color: #3b5998;
+  display: block;
+}
+
+.twitter {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  width: 125px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.twitter a:hover {
+  background-color: #1da1f2;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:visited {
+  color: white;
+}
+
+.odkazy {
+  background-color: #31363b;
 }
