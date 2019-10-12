@@ -55,6 +55,8 @@ img {
   color: rgb(231, 229, 229);
   font-size: 15px;
   filter: blur(0.5px);
+  border-bottom: solid 0.5px;
+  border-bottom-color: rgb(116, 112, 112);
 }
 
 .logo {
@@ -87,12 +89,13 @@ li {
   text-transform: uppercase;
   width: 250px;
   text-align: center;
-  margin: 10px 0px;
+  border-bottom: solid 0.5px;
+  border-bottom-color: rgb(116, 112, 112);
 }
+
 
 .portfolio a:hover {
   background-color: #e74c3c;
-  display: block;
 }
 
 
@@ -104,12 +107,12 @@ li {
   text-transform: uppercase;
   width: 125px;
   text-align: center;
-  margin: 10px 0px;
+  border-right: solid 0.5px;
+  border-right-color: rgb(116, 112, 112);
 }
 
 .facebook a:hover {
   background-color: #3b5998;
-  display: block;
 }
 
 .twitter {
@@ -120,17 +123,16 @@ li {
   text-transform: uppercase;
   width: 125px;
   text-align: center;
-  margin: 10px 0px;
 }
 
 .twitter a:hover {
   background-color: #1da1f2;
-  display: block;
 }
 
 a {
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  padding: 10px;
 }
 
 a:visited {
