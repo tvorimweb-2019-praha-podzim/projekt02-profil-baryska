@@ -81,32 +81,42 @@ li {
   color: rgb(231, 229, 229);
 }
 
-.portfolio {
+.odkazy {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: bold;
   color: white;
   text-transform: uppercase;
-  width: 250px;
   text-align: center;
+}
+
+.odkazy {
+  background-color: #31363b;
+}
+
+.odkazy a:visited {
+  color: white;
+}
+
+.odkazy a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.portfolio {
+  width: 250px;
   border-bottom: solid 0.5px;
   border-bottom-color: rgb(116, 112, 112);
 }
-
 
 .portfolio a:hover {
   background-color: #e74c3c;
 }
 
-
 .facebook {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase;
   width: 125px;
-  text-align: center;
   border-right: solid 0.5px;
   border-right-color: rgb(116, 112, 112);
 }
@@ -116,29 +126,10 @@ li {
 }
 
 .twitter {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase;
   width: 125px;
-  text-align: center;
 }
 
 .twitter a:hover {
   background-color: #1da1f2;
 }
 
-a {
-  text-decoration: none;
-  display: block;
-  padding: 10px;
-}
-
-a:visited {
-  color: white;
-}
-
-.odkazy {
-  background-color: #31363b;
-}
